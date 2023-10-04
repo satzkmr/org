@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build1'){
             steps {
-                bat "echo monesha 2"
+                bat "echo monesha test webhook"
             }
         }
 
