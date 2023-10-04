@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build1'){
             steps {
-                bat "echo monesha"
+                bat "echo monesha 1"
             }
         }
 
