@@ -14,7 +14,7 @@ pipeline {
             }
         }
 
-        stage('Build'){
+        stage('Build1'){
             steps {
                 bat "echo monesha"
             }
