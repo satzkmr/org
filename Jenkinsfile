@@ -6,12 +6,19 @@ pipeline {
             steps {
                 bat "./gradlew clean test"
             }
+        }
 
-            stage('BUILD') {
-                steps {
-                    bat "./gradlew build"
-                }
+        stage('Build'){
+            steps {
+                bat "./gradlew build"
             }
         }
+
+        stage('Build'){
+            steps {
+                bat "echo monesha"
+            }
+        }
+
     }
 }
